@@ -1,0 +1,11 @@
+﻿@using System.Web.Optimization
+<h2>Controller Action Bundling - Sample</h2>
+<p>
+	This sample shows how you could use dynamic generated controller / action content for bundling.
+</p>
+<p>
+	Since the content changes every minute, the ControllerActionCacheDependency will assure that the bundle used is up to date.
+</p>
+<p>
+	Current Bundle URL: @Scripts.RenderFormat(@"""{0}""", "~/scripts")
+</p>
